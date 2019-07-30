@@ -1,0 +1,23 @@
+<div class="header">
+    <%= image_tag("LDS_Logo.svg") %>
+</div>
+
+
+<div class="container-script">
+
+    <h1>NOTHING GOLD CAN STAY FORMAT</h1>
+    
+    <%= form_for(:cleaner, url: cleaner_create_path) do |f| %>
+        
+        <%= f.label :script, "Paste format:" %>
+        
+        <%= f.text_area :script, class: "text-area" %>  
+       
+        <%= f.submit "SUBMIT", class: "button"%>
+         <%= submit_tag("CLEAR", { :name => 'reset', :id => 'reset_button', :type => "reset" }) %>
+    <% end %>
+
+
+</div>
+
+

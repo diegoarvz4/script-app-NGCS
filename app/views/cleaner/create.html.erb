@@ -1,0 +1,31 @@
+<div class="header">
+    <%= image_tag("LDS_Logo.svg") %>
+</div>
+
+<div class="container">
+<h1>NOTHING GOLD CAN STAY FORMAT</h1>
+    <button class="clipboard-btn button" data-clipboard-action="copy" data-clipboard-target="#script">
+        Copy!
+    </button>
+    <table id="script">
+        <tr>
+            <th>TC</th>
+            <th>Personaje</th>
+            <th>English</th>
+            <th>Diálogo<th>
+        </tr>
+        
+        <% @loops.each do |tc, value|%>
+        
+            <tr>
+                <td class="timecode_text"> <%= tc %>  </td>
+                <td></td>
+                <td class="english_text"> <%= value %> </td>
+                <td></td>
+            </tr>
+
+        <% end %>
+
+    </table>
+
+</div>
