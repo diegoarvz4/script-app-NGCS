@@ -1,3 +1,16 @@
+# Script Parser
+
+> TThis an application for making word scripts to a table-form scripts.
+
+## Built With
+ 
+ - Ruby
+ - Rails
+ 
+ ## Live 
+ 
+ [Script Parser](https://agile-shelf-23180.herokuapp.com/)
+
 ## Getting started
 
 To get started with the app, clone the repo and then install the needed gems:
@@ -51,3 +64,24 @@ If problems,
 ```
 $ heroku logs
 ```
+# Authors
+
+## 👤 **Diego Luis Arvizu Gutiérrez**
+
+- Github: [@diegoarvz4](https://github.com/diegoarvz4)
+- Twitter: [@Diego Arvz](https://twitter.com/Darvizu_gutier)
+- Linkedin: [/in/diego-arvz](https://linkedin.com/linkedinhandle)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is Licensed under MIT
